@@ -111,5 +111,5 @@ Power BI dashboard includes:
 
 ---
 
-## 📌 Project Description (Short)
+## 📌 Project Description 
 End-to-end customer behavior analysis using Python, SQL, and Power BI to uncover insights on revenue, segmentation, discounts, and seasonal trends.
