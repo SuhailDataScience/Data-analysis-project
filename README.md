@@ -1,84 +1,115 @@
-# Data-analysis-project
-📊 Customer Shopping Behavior Analysis
-🔍 Project Overview
+# Data Analysis Project
+# 📊 Customer Shopping Behavior Analysis
 
-This project analyzes customer shopping behavior using a transactional dataset of 3,900 records across 18 features. The goal is to extract actionable business insights related to customer segmentation, purchasing patterns, product performance, and revenue drivers.
+## 🔍 Project Overview
+This project analyzes customer shopping behavior using a dataset of **3,900 transactions** across 18 features.
 
-The analysis combines Python (EDA & preprocessing), MySQL (business queries), and Power BI (dashboarding) to simulate a real-world end-to-end data analytics workflow.
+The goal is to extract actionable insights on:
+- Customer segmentation  
+- Purchasing behavior  
+- Product performance  
+- Revenue drivers  
 
-🎯 Objectives
-Identify key revenue drivers across customer segments
-Understand the impact of discounts, subscriptions, and shipping types
-Analyze product performance and customer preferences
-Detect gaps in customer acquisition, retention, and seasonal sales
-Provide actionable, data-driven business recommendations
+The project follows an end-to-end analytics workflow using **Python, SQL, and Power BI**.
 
-🧰 Tech Stack
-Python – Data cleaning, preprocessing, feature engineering
-Pandas, NumPy – Data manipulation
-MySQL – Business query analysis
-Power BI – Dashboard visualization
+---
 
-📁 Dataset Summary
-Rows: 3,900
-Columns: 18
-Key Features:
-Demographics: Age, Gender, Location
-Purchase Data: Item, Category, Amount, Season
-Behavioral Data: Discounts, Ratings, Frequency, Shipping Type
-⚙️ Data Processing & Feature Engineering
+## 🎯 Objectives
+- Identify key revenue drivers  
+- Analyze customer segments  
+- Evaluate discount impact  
+- Understand seasonal trends  
+- Generate business recommendations  
 
-Key transformations:
+---
 
-Standardized column names (snake_case)
-Handled missing values (imputed review ratings using category averages)
-Created:
-age_group (quartile segmentation)
-purchase_frequency_days (mapped categorical → numeric)
-Removed redundant columns
+## 🧰 Tech Stack
+- Python (Pandas, NumPy)
+- MySQL
+- Power BI
 
-📊 Key Insights
-💰 Revenue Distribution
-Male customers contribute ~68% of total revenue
-Strong skew in dataset → indicates acquisition imbalance, not necessarily behavior difference
-🎯 Discounts ≠ Low Value
-High-spending customers still use discounts
-Discounts act as conversion triggers, not just for low spenders
-🧍 Customer Segmentation
-~80% customers are “Loyal”
-Only ~2% are new → serious acquisition problem
+---
 
-📦 Subscription Gap
-73% users are not subscribed
-Subscribers and non-subscribers spend almost the same
-➡️ Subscription strategy is weak and poorly positioned
+## 📁 Dataset Summary
+- Rows: 3,900  
+- Columns: 18  
 
-📉 Seasonal Failure
-Summer revenue drops by ~91%
-➡️ This is not “seasonality” — this is a strategy failure
-🛍️ Product Insights
-High discount dependency (~50%) for some products → margin leakage
-Top-rated products still < 4 rating → quality perception issue
-📈 Dashboard (Power BI)
+### Key Features:
+- Demographics: Age, Gender, Location  
+- Purchase: Item, Category, Amount, Season  
+- Behavior: Discounts, Ratings, Frequency, Shipping  
 
-The interactive dashboard highlights:
+---
 
-Customer segmentation & subscription breakdown
-Category-wise revenue distribution
-Seasonal sales trends
-Shipping preferences
-Age group contribution
+## ⚙️ Data Processing
+- Standardized column names  
+- Handled missing values  
+- Created new features:
+  - Age groups  
+  - Purchase frequency (days)  
+- Removed redundant columns  
 
-🚨 Key Business Problems Identified
-.Weak customer acquisition funnel
-.Poor subscription conversion strategy
-.Over-reliance on discounts
-.Massive seasonal revenue drop
-.Underperforming product categories despite demand
+---
 
-💡 Strategic Recommendations
-.Fix summer sales with targeted product & campaign strategy
-.Convert repeat buyers into subscribers (low-hanging fruit)
-.Introduce minimum threshold for free shipping
-.Reduce discount dependency via pricing optimization
-.Invest in customer acquisition campaigns
+## 📊 Key Insights
+
+### 💰 Revenue
+- ~68% revenue from male customers  
+- Likely due to dataset imbalance  
+
+### 🎯 Discounts
+- High spenders still use discounts  
+- Discounts drive conversions  
+
+### 🧍 Segmentation
+- 80% customers are loyal  
+- Only 2% are new → acquisition issue  
+
+### 📦 Subscriptions
+- 73% users are not subscribed  
+- No spending difference → weak strategy  
+
+### 📉 Seasonality
+- Summer revenue drops ~91%  
+- Major business gap  
+
+---
+
+## 📈 Dashboard
+Power BI dashboard includes:
+- Customer segmentation  
+- Category sales  
+- Seasonal trends  
+- Shipping analysis  
+
+---
+
+## 🚨 Problems Identified
+- Weak customer acquisition  
+- Poor subscription conversion  
+- Overuse of discounts  
+- Seasonal revenue drop  
+
+---
+
+## 💡 Recommendations
+- Fix summer sales strategy  
+- Convert repeat buyers to subscribers  
+- Introduce free shipping threshold  
+- Reduce discount dependency  
+- Improve acquisition campaigns  
+
+---
+
+
+---
+
+## 🚀 Key Learnings
+- End-to-end analytics workflow  
+- SQL + Python integration  
+- Business-focused insights  
+
+---
+
+## 📌 Project Description (Short)
+End-to-end customer behavior analysis using Python, SQL, and Power BI to uncover insights on revenue, segmentation, discounts, and seasonal trends.
